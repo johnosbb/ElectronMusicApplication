@@ -1,0 +1,16 @@
+{
+  "name": "musicapplication",
+  "version": "1.0.0",
+  "description": "A simple music application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "johnos",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.1.1",
+    "jquery": "^3.5.1",
+    "music-metadata": "^7.5.2"
+  }
+}
