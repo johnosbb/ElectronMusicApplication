@@ -97,10 +97,10 @@ function updateTime(){
 }
 
 function updatePlayButton(){
-    let playIcon = $('#play-button span')
+    let playIcon = $('#play-button span') // find the span item in the play-button 
     if(playing){
-        playIcon.removeClass('icon-play')
-        playIcon.addClass('icon-pause')
+        playIcon.removeClass('icon-play') //remove the current item
+        playIcon.addClass('icon-pause') // add the new icon
     }else{
         playIcon.removeClass('icon-pause')
         playIcon.addClass('icon-play')
